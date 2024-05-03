@@ -1,6 +1,6 @@
 itemList = [['book', 30], ['pen', 20], ['pencil', 5], ['bag', 320], ['watch', 560], ['ring', 1500]]
 
-item = input('Enter the item which you want to know the price:')
+item = input('Enter the item which you want to know the price:').lower()
 match item:
     case 'book':
         print('price:', itemList[0][1])
