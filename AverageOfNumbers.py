@@ -7,14 +7,13 @@ def average(numbers):
     return avg
 
 
-
 try:
-    inputCount = int(input('enter input count'))
+    inputCount = int(input('enter total number of elements'))
     list = [0] * inputCount
-    nn = 0;
-    while nn < inputCount:
-        list[nn] = int(input('enter input count'));
-        nn += 1
+    index = 0;
+    while index < inputCount:
+        list[index] = int(input('enter each number'));
+        index += 1
     averageOfNumber = average(list)
     print('average of all number =', averageOfNumber)
 except:
