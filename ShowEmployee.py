@@ -1,4 +1,4 @@
-def show_employee(id, name, title, dept, sal=2500):
+def show_employee(id, name, title, dept, sal=9000):
     print("THE employee details are follows")
     print('ID=', id)
     print('NAME=', name)
