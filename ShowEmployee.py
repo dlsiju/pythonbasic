@@ -2,9 +2,9 @@ def show_employee(id, name, title, dept, sal=9000):
     print("THE employee details are follows")
     print('ID=', id)
     print('NAME=', name)
-    print("TITLE", title)
-    print("DEPARTMENT", dept)
-    print("SALARY", sal)
+    print("TITLE=", title)
+    print("DEPARTMENT=", dept)
+    print("SALARY=", sal)
 
 
 try:
