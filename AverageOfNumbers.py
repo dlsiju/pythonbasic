@@ -1,0 +1,21 @@
+def average(numbers):
+    total = 0
+    avg = 0;
+    for n in numbers:
+        total += n;
+    avg = total / len(numbers)
+    return avg
+
+
+
+try:
+    inputCount = int(input('enter input count'))
+    list = [0] * inputCount
+    nn = 0;
+    while nn < inputCount:
+        list[nn] = int(input('enter input count'));
+        nn += 1
+    averageOfNumber = average(list)
+    print('average of all number =', averageOfNumber)
+except:
+    print("Please enter a valid number")
