@@ -10,6 +10,6 @@ firstString = input('First string: ')
 secondString = input('Second string: ')
 thirdString = input('Third string: ')
 fourthString = input('Fourth string: ')
-appendedStringVlaue = keyWordArgsConcatenation(third=thirdString, second=secondString, fourth=fourthString,
+appendedStringValue = keyWordArgsConcatenation(third=thirdString, second=secondString, fourth=fourthString,
                                                first=firstString)
-print("Appended String:", appendedStringVlaue)
+print("Appended String:", appendedStringValue)

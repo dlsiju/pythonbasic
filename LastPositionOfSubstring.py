@@ -6,4 +6,4 @@ check = lambda x: x if inputString.startswith(searchKey.casefold(), x) else inde
 
 for i in range(len(inputString)):
     indexFound = check(i)
-print('last occurance of string', searchKey, ' is', indexFound)
+print('last occurrence of string', searchKey, ' is', indexFound)

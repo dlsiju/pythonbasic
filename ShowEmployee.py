@@ -12,7 +12,7 @@ try:
     name = input('Enter the name')
     job_title = input('Enter the job title')
     department = input('Enter the department')
-    salary = int(input('Enter the salary, or enter zero if no cusotm salary specified'))
+    salary = int(input('Enter the salary, or enter zero if no custom salary specified'))
     show_employee(id, name, job_title, department, salary) if salary != 0 else show_employee(id, name, job_title,
                                                                                              department)
 except:
