@@ -1,3 +1,6 @@
+
+#1.Iterate both lists simultaneously use zip method.
+
 list1 = [10, 20, 30, 40]
 list2 = [50, 60, 70, 80]
 zippedList = zip(list1, list2)
