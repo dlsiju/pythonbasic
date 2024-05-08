@@ -8,7 +8,7 @@ zippedList = zip(list1, list2)
 for zItem in zippedList:
     print('lis1={}, lis2={}'.format(zItem[0], zItem[1]))
 
-items = ['apple', 'orange', 'mango', 'chocolate', 'cake', ]
+items = ['apple', 'orange', 'mango', 'chocolate', 'cake']
 quantityInKg = [2, 3, 2.5, 1, 1]
 price = [345, 450, 100, 400, 250]
 
