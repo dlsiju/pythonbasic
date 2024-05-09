@@ -19,10 +19,11 @@ questionTuple = (
 alphabetList = list(string.ascii_uppercase)
 print("started the quiz")
 print('Follow each question and select your option')
-print('Type A if your answer is option A Or B if answer is option B adn so on')
+print('Enter A if your answer is option A Or B if answer is option B and so on')
+print('Enter N --> for skipping the current question')
+print('Enter Q --> for quit the quiz')
 pts = 0
 for questionNumber in range(len(questionTuple)):
-    print('questionNumber=', questionNumber)
     print(questionNumber + 1, '.', questionTuple[questionNumber][0], "?")
     print('\t\t', alphabetList[0], ')', questionTuple[questionNumber][1][0],
           '\t\t', alphabetList[1], ')', questionTuple[questionNumber][1][1],
