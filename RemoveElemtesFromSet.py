@@ -6,3 +6,7 @@ set1.remove(10)
 set1.remove(20)
 set1.remove(30)
 print('set1 after removal=', set1)
+try:
+    set1.remove(150)
+except KeyError:
+    print('Error while removing element')
