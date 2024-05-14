@@ -14,6 +14,7 @@ class Student:
 
     @classmethod
     def displayAll(cls, failedStudentList):
+        print('College name=', cls.__CollageName)
         print('failed students details are')
         for student in failedStudentList:
             print(student.rollnumber, student.name, student.totalMark)
