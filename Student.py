@@ -1,6 +1,6 @@
 class Student:
-    __passMark = 50
-    __CollageName = 'University college'
+    passMark = 50
+    CollageName = 'University college'
 
     def __init__(self, rollnumber, name, totalMark):
         self.rollnumber = rollnumber
@@ -10,11 +10,11 @@ class Student:
     @classmethod
     def getTotalMarks(cls, studnetlist):
         print('all students size=', studnetlist.__len__())
-        return list(filter(lambda student: student.totalMark < cls.__passMark, studnetlist))
+        return list(filter(lambda student: student.totalMark < cls.passMark, studnetlist))
 
     @classmethod
     def displayAll(cls, failedStudentList):
-        print('College name=', cls.__CollageName)
+        print('College name=', cls.CollageName)
         print('failed students details are')
         for student in failedStudentList:
             print(student.rollnumber, student.name, student.totalMark)
