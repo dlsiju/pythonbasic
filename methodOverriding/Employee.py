@@ -8,3 +8,9 @@ class Employee:
 
     def totalSalary(self):
         return self.salary
+
+    def displayEmployeeDetails(self):
+        print('name=', self.name)
+        print('qualification=', self.qualification)
+        print('experience=', self.experience)
+        print('Fixed salary=', self.salary)
