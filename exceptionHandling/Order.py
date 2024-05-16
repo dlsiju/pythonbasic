@@ -7,14 +7,13 @@ class Order:
 
     def __init__(self):
         self.product = Product(1, 'Book', 25)
-        print(self.product.id)
-        print(self.product.name)
-        print(self.product.stockAvailable)
 
     def placeOrder(self):
+        print('shop name=', self.product._shopName, 'from', self.product._location)
+        print('only', self.product._getStockAvailable(), ' are left')
         booksCount = int(input('Enter the number of books do you want to purchase:'))
-        if booksCount > self.product.stockAvailable:
-            raise OutOfStock('Only {} books are available'.format(self.product.stockAvailable))
+        if booksCount > self.product._getStockAvailable():
+            raise OutOfStock('Only {} books are available'.format(self.product._getStockAvailable()))
         print('order placed for {} books'.format(booksCount))
 
 
